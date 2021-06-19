@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+  
 env:
   AZURE_SUBSCRIPTION_ID: f15c1c94-23dc-4291-aae2-4a218ed7afd4   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource group
